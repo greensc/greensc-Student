@@ -5,3 +5,5 @@ Hi, my name is Scott Green. I am currently in New Mexico, but I am a California 
 
 programming background
 ======================
+
+My first exposure to programming was in 1987. It was a Basic programming class using TRS-80 computers.
