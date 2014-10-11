@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <title>assignment2</title>
+	<link rel = "stylesheet" href = "style.css">
+	<meta charset = "UTF-8">
+  </head>
+  <body>
+    <table border = "1">
+    <caption>Funny Movies</caption>
+	<thead>
+	  <tr>
+	    <th></th>
+		<th>Dumb and Dumber</th>
+		<th>Dodgeball</th>
+		<th>Something About Mary</th>
+		<th>Old School</th>
+		<th>The Naked Gun</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  <tr>
+	    <td>Year</td>
+		<td>1994</td>
+		<td>2004</td>
+		<td>1998</td>
+		<td>2003</td>
+		<td>1988</td>
+	  </tr>
+	  <tr>
+	    <td>Rating</td>
+		<td>PG-13</td>
+		<td>PG-13</td>
+		<td>R</td>
+		<td>R</td>
+		<td>PG-13</td>
+	  </tr>
+	  <tr>
+	    <td>Budget</td>
+		<td>16 Million</td>
+		<td>20 Million</td>
+		<td>23 Million</td>
+		<td>24 Million</td>
+		<td>12 Million</td>
+	  </tr>
+	  <tr>
+	    <td>Gross</td>
+		<td>127 Million</td>
+		<td>114 Million</td>
+		<td>176 Million</td>
+		<td>74 Million</td>
+		<td>78 Million</td>
+	  </tr>
+	  <tr>
+	    <td>Sequel?</td>
+		<td>Yes</td>
+		<td>No</td>
+		<td>No</td>
+		<td>No</td>
+		<td>Yes</td>
+	</tbody>
+    <tfoot>
+      <tr>
+        <td colspan = "1">Footer 1</td>
+        <td colspan = "4">Footer 2</td>		
+	  </tr>
+	</tfoot>
+	</table>
+	
+	<dl>
+      <dt>Trippiest Movie</dt>
+      <dd>A Clockwork Orage</dd>
+	  <dt>Sweetest Movie</dt>
+	  <dd>Charlie and the Chocolate Factory</dd>
+	  <dt>Freakiest Movie</dt>
+	  <dd>The Shining</dd>
+	</dl>
+	
+    <form action = "/my-form-page-via-post" method = "post">
+	  <fieldset>
+      <legend>Some POST Data</legend>
+	  
+      <div>
+        <label> Text here: </label>
+        <input type = "text" name = 'text_input' />
+      </div>
+	  
+	  <div>
+	    <label> Number here: </label>
+		<input type = "number" name = 'numerical_input' />
+	  </div>
+	  
+	  <div>
+	    <label> Password here: </label>
+		<input type = "password" name = 'password_input' />
+	  </div>
+	  
+	  <div>
+	    <label> Select between: </label> <br>
+		<input type = "radio" name = 'candy' > Snickers <br>
+		<input type = "radio" name = 'candy' > Skittles <br>
+		<input type = "radio" name = 'candy' > Mentos <br>
+	  </div>
+	  
+	  <div class = "button">
+	    <button type = "submit" > Submit </button>
+	  </div>
+	  
+	  </fieldset>
+    </form>
+
+    <form action = "/my-form-page-via-get" method = "get">
+	  <fieldset>
+      <legend>Some GET Data</legend>
+	  
+      <div>
+        <label> Text here: </label>
+        <input type = "text" name = 'text_input' />
+      </div>
+	  
+	  <div>
+	    <label> Number here: </label>
+		<input type = "number" name = 'numerical_input' />
+	  </div>
+	  
+	  <div>
+	    <label> Password here: </label>
+		<input type = "password" name = 'password_input' />
+	  </div>
+	  
+	  <div>
+	    <label> Select between: </label> <br>
+		<input type = "radio" name = 'candy' > Snickers <br>
+		<input type = "radio" name = 'candy' > Skittles <br>
+		<input type = "radio" name = 'candy' > Mentos <br>
+	  </div>
+	  
+	  <div class = "button">
+	    <button type = "submit" > Submit </button>
+	  </div>
+	  
+	  </fieldset>
+    </form>
+
+      <div id = "red"></div>
+      <div id = "orange"></div>
+      <div id = "yellow"></div>
+      <div id = "green"></div>
+      <div id = "indigo"></div>
+      <div id = "blue"></div>
+		
+  </body>
+</html>
